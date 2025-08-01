@@ -13,7 +13,6 @@ class ToolBar(tk.Frame):
             "load_cd": ImageTk.PhotoImage(Image.open("assets/images/.png/music (32x32).png")),
             "rip_library": ImageTk.PhotoImage(Image.open("assets/images/.png/database (32x32).png")),
             "preferences": ImageTk.PhotoImage(Image.open("assets/images/.png/preferences (32x32).png")),
-            "transcode": ImageTk.PhotoImage(Image.open("assets/images/.png/transcode (32x32).png")),
             "start_rip": ImageTk.PhotoImage(Image.open("assets/images/.png/start (32x32).png")),
             "stop_rip": ImageTk.PhotoImage(Image.open("assets/images/.png/stop (32x32).png"))
         }
