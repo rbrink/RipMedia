@@ -34,7 +34,7 @@ class Application(tk.Tk):
         self.callbacks = {
             "file -> load_dvd": self.on_open_dvd,
             "file -> load_iso": self.on_open_iso,
-            "file -> load_cd": self.on_open_cd,
+            "file -> load_cd": lambda: messagebox.showinfo("Information", "Audio CD Capabilities have not been implemented yet"),
             "edit -> edit_titles": self.edit_series,
             "edit -> edit_metadata": self.edit_title_metadata,
             "tools -> history": self.open_rip_library,
