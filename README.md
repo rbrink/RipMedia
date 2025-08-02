@@ -98,7 +98,7 @@ Preset themes and colors are stored in `Config.PRESET_THEMES`.
 ├── assets/            # Button and menu icons
 ├── data/
     ├── presets.json   # HandBrake preset file
-        ripdatabase.py
+    └── ripdatabase.py
 ├── logs/              # Application logs
 ├── modules/           # Main logic
 ├── output/            # Ripped MKV files
