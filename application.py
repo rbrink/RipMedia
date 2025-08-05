@@ -168,6 +168,7 @@ class Application(tk.Tk):
         if not selected:
             self.logger.info("Rip: No titles selected")
             messagebox.showinfo("Rip", "No titles selected.")
+            self.toolbar.btn_rip.config(state=tk.NORMAL)
             return
 
         mkv = MakeMKVHandler()
@@ -416,3 +417,4 @@ class Application(tk.Tk):
 if __name__ == "__main__":
     app = Application()
     app.mainloop()
+
